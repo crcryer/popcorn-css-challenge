@@ -3,3 +3,48 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+body, h1, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    background-color: #FFDBAA;
+    padding: 20px 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+
+.logo h1 {
+    color: #553100;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+
+.navigation {
+    display: flex;
+    gap: 15px;
+}
+
+.navigation button {
+    background-color: #805215;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 40px;
+    border: none;
+    padding: 20px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navigation button:hover {
+    background-color: #6f4315;
+}
